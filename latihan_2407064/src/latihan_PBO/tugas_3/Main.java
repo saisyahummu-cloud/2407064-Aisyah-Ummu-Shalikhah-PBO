@@ -7,6 +7,7 @@ public class Main {
 
         // 4. Menampilkan hasil output 
         System.out.println("Luas alas : " + br.hitungLuas());   
-        System.out.println("Volume    : " + br.hitungVolume()); 
+        System.out.println("Volume dari class parents    : " + br.hitungVolume());
+        System.out.println("Volume dari class child    : " + br.hitungVolume()); 
     }
 }
