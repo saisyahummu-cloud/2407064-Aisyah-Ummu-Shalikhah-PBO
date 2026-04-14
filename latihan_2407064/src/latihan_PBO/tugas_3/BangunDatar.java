@@ -1,11 +1,10 @@
 package latihan_PBO.tugas_3;
 
-public class BangunDatar {
-    // 1a & 1b. Atribut private panjang dan lebar (Enkapsulasi) 
+public class BangunDatar { 
     protected double panjang;
     protected double lebar;
 
-    // 1c. Constructor untuk mengisi nilai 
+
     public BangunDatar(double panjang, double lebar) {
         this.panjang = panjang;
         this.lebar = lebar;
