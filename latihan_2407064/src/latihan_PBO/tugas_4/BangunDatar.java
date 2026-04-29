@@ -1,11 +1,11 @@
 package latihan_PBO.tugas_4;
 
 public class BangunDatar { 
-    private double varA;
+    private double varA; // Atribut dari class bangun datar
     private double varB;
 
    
-    public BangunDatar(double varA, double varB) {
+    public BangunDatar(double varA, double varB) { //Contructor
         this.varA = varA;
         this.varB = varB;
     }
@@ -13,7 +13,6 @@ public class BangunDatar {
 
     public BangunDatar(double varA) {
         this.varA = varA;
-        this.varB = 0; 
     }
 
    
